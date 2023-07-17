@@ -11,7 +11,7 @@ body{
 h1{
     display: flex;
     justify-content: center;
-    margin-top: 350px;
+  
     font-size: 4em;
 
 }
@@ -49,6 +49,7 @@ button{
     border-radius: 0.4em;
     font-weight: 500;
     cursor: pointer;
+    padding: 6px;
 }
 
 #player-1 {
@@ -59,7 +60,9 @@ button{
     display: flex;
 
 }
-
+#reset {
+    padding: 6px;
+}
 
 #player-2 {
     margin: 0 auto 0 auto;
